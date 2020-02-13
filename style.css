@@ -4,16 +4,33 @@ body {
     margin-right: 10%;
 }
 
-#wizard-header {
+nav {
+    background-color: white;
+    border-bottom: mediumaquamarine;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    border-style: solid;
+    border-width: 15px;
+    font-family: 'Assistant';
+    font-size: 20px;
+    text-align: center;
+}
+
+h1 {
     color: lightgray;
     font-size: 80px;
     font-family: 'Bebas Neue';
     background-color: tomato;
+    text-align: center;
+}
+
+#wizard-header{
+    text-align: left;
 }
 
 .req-list {
     background-color: lightyellow;
-
 }
 
 ul {
@@ -57,4 +74,37 @@ button:hover {
     background-color: white;
     border: 2px solid tomato;
     color: tomato;
+}
+
+.accolade {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Assistant';
+    border-style: solid;
+    border-color: #fafafa;
+    background-color: white;
+}
+
+.accolade .publication-title{
+    background-color: mediumaquamarine;
+    font-family: 'Alfa Slab One';
+    font-size: 40px;
+    
+}
+.accolade .title {
+    font-size: 30px;
+    font-family: 'Bitter';
+}
+.accolade .award {
+    background-color: darkslateblue;
+    font-size: 20px;
+    color: #fafafa;
+}
+.accolade .link-publication{
+    font-size: 20px;
+    padding-left: 10%;
+}
+
+#rendering-riva-fid {
+    align-self: center;
 }
