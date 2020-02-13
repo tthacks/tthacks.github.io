@@ -1,0 +1,60 @@
+body {
+    background-color: lightgray;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#wizard-header {
+    color: lightgray;
+    font-size: 80px;
+    font-family: 'Bebas Neue';
+    background-color: tomato;
+}
+
+.req-list {
+    background-color: lightyellow;
+
+}
+
+ul {
+    list-style-type: circle;
+    font-family: 'Assistant';
+    font-size: 20px;
+}
+
+h2 {
+    color: lightgray;
+    background-color: darkslateblue;
+    font-family: 'Bebas Neue';
+    font-size: 50px;
+}
+
+h3 {
+    color: black;
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Assistant';
+    font-size: 20px;
+    padding-left: 5%;
+    border-style: solid;
+    border-color: #fafafa;
+    background-color: white;
+}
+
+button {
+background-color: tomato;
+font-family: 'Bebas Neue';
+font-size: 25px;
+color: white;
+padding: 10px 24px;
+border-radius: 8px;
+border: 2px solid white;
+}
+button:hover {
+    background-color: white;
+    border: 2px solid tomato;
+    color: tomato;
+}
