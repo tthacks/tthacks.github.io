@@ -105,6 +105,20 @@ button:hover {
     padding-left: 10%;
 }
 
-#rendering-riva-fid {
+#rendering-riva-vid {
     align-self: center;
+}
+
+.announcement {
+    text-align: center; 
+    color: white;
+    background-color: mediumaquamarine;
+    font-size: 20px;
+    font-family: 'Assistant';
+}
+
+.announcement a {
+    font-weight: bold;
+    color: darkslateblue;
+
 }
