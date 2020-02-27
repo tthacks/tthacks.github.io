@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+}
+ a:visited {
+    color: grey;
+    color: yellow;
+ }
+
+ button {
+    font-size: larger; 
+ }
+
+ ul {
+     list-style-type: none;
+ }
+
+ .about-me {
+     background-color: fuscia;
+ }
+ .eggs {
+     background-color: blue;
+ }

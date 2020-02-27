@@ -3,7 +3,6 @@ body {
     margin-left: 10%;
     margin-right: 10%;
 }
-
 nav {
     background-color: white;
     border-bottom: mediumaquamarine;
@@ -23,6 +22,7 @@ h1 {
     font-family: 'Bebas Neue';
     background-color: tomato;
     text-align: center;
+    margin: 0px auto;
 }
 
 #wizard-header{
@@ -111,6 +111,10 @@ button:hover {
 
 .announcement {
     text-align: center; 
+    position: sticky; 
+    top: 0px;
+    margin: 0px;
+    width: 100%;
     color: white;
     background-color: mediumaquamarine;
     font-size: 20px;
@@ -120,5 +124,4 @@ button:hover {
 .announcement a {
     font-weight: bold;
     color: darkslateblue;
-
 }
