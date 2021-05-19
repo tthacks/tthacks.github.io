@@ -1,0 +1,106 @@
+body, html {
+    height: 100%;
+}
+.blacksby-style {
+    background-color: #0a0a0a;
+    color: #a0a0a0;
+    height: 100%;
+}
+.magnolia-style {
+    background-color: #55f;
+    color: #a0a0a0;
+    height: 100%;
+}
+.bg-img-blacksby {
+    background-image: url(assets/parallax-blacksby.JPG);
+    min-height: 100%;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Assistant';
+}
+.bg-img-magnolia {
+    background-image: url(assets/parallax-magnolia.JPG);
+    min-height: 100%;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Assistant';
+}
+.story-header-blacksby{
+    width: 100%;
+    text-align: center;   
+    background-color: #222629;
+    padding: 10px;
+        color: #FFFFFF;
+        font-family: 'Bebas Neue';
+        font-size: 50px;
+}
+.story-header-magnolia{
+    width: 100%;
+    text-align: center;   
+    background-color: #c60021;
+    padding: 10px;
+        text-align: center;
+        color: #f6f6f8;
+        font-family: 'Bebas Neue';
+        font-size: 50px;
+}
+
+.progress-tracker {
+    padding: 18px;
+    position: absolute;
+    left: 60%;
+    top: 5%;
+    text-align: center;
+}
+
+.bg-img-blacksby .progress-tracker{
+    background-color: #6B6E70;
+    color: #fff;
+}
+
+.bg-img-magnolia .progress-tracker{
+    background-color: #e3e3e3;
+    color: #3e3e3e;
+}
+
+.description {
+    background-color: #f6f6f8;
+    color: #002631;
+    padding: 18px;
+    position: absolute;
+    width: 35%;
+    left: 60%;
+    top: 20%;
+    text-align: center;
+}
+
+.CTA {
+    margin-top: 50px;
+    padding: 18px;
+    position: absolute;
+    width: 20%;
+    left: 60%;
+    top: 45%;
+    text-align: center; 
+}
+.bg-img-blacksby .CTA {
+    background-color: #86C232;
+    color: #222629;
+}
+
+.bg-img-magnolia .CTA {
+    background-color: #c60021;
+    color: white;
+}
+footer {
+    background-color: white;
+    color: black;
+    width: 100%;
+    text-align: center;
+}
