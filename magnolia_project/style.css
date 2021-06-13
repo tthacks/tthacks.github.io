@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(rgba(227,227,227,255), rgba(227,227,227,255), rgba(227,227,227,255), rgba(227,227,227,255), rgba(227,227,227,255),rgba(0, 0, 0, 0.4));
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4));
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -9,6 +9,8 @@ header {
 h1 {
     text-align: center;
     color: #c60021;
+    background-color: rgba(227,227,227,255);
+    width: 100%;
     font-family: 'Bebas Neue';
     font-size: 50px;
     padding: 0;
@@ -22,10 +24,11 @@ h2 {
 }
 .chapter_title {
     text-align: center;
-    color: #3e3e3e
+    color: #c60021;
+    opacity: 0.8;
 }
 h3 {
-    color: #3e3e3e;
+    color: #c60021;
     text-align: center;
     font-family: 'Assistant';
 }
@@ -33,11 +36,8 @@ ul {
     list-style-type: none;
 }
 nav {
-    background-color:  #e3e3e3;
-    border-bottom: #c60021;
-    border-top:  #e3e3e3;
-    border-left:  #e3e3e3;
-    border-right:  #e3e3e3;
+    border-color: transparent;
+    border-bottom-color: #c60021;
     border-style: solid;
     border-width: 2px;
     font-family: 'Assistant';
@@ -50,10 +50,11 @@ a {
     margin-right: 20px;
     font-family: 'Assistant';
     font-size: 20px;
-    color: #3e3e3e;
+    color: #ffffff;
 }
 a:visited {
-    color: #2e2e2e;
+    color: #ffffff;
+    opacity: 0.6;
     text-decoration: none;
 }
 a:link {
@@ -69,8 +70,8 @@ a:hover {
     font-family: 'Assistant';
 }
 footer {
-    background-color: rgba(0,0,0,0.4);
-    color: white;
+    background-color: #000000;
+    color: #3e3e3e;
     width: 100%;
     text-align: center;
 }
