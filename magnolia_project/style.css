@@ -73,6 +73,12 @@ a:hover {
     padding: 20px;
     font-family: 'Assistant';
 }
+.hjc_letter {
+    background-color: #ffffee;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 15px;
+}
 .blackout_bunker {
     background-color:#000000;
     color: #ffffff;
